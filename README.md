@@ -47,16 +47,6 @@ below) but adds extensibility, configurability and a smoother UI.
 ## Development
 
 1. Run: `git clone https://github.com/checkly/puppeteer-recorder.git`
-2. Build the project: `cd puppeteer-recorder && npm i && npm run dev`
-2. Navigate to chrome://extensions
-3. Make sure 'Developer mode' is checked
-4. Click Load unpacked extension...
-5. Browse to puppeteer-recorder/build and click Select
-
-
-## Development
-
-1. Run: `git clone https://github.com/checkly/puppeteer-recorder.git`
 2. Run: `cd puppeteer-recorder && npm install node-sass`
 3. Build the project: `npm i && npm run dev`
 4. Navigate to chrome://extensions
