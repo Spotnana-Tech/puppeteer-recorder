@@ -102,7 +102,7 @@ export default class EventRecorder {
     try {
       const optimizedMinLength = (e.target.id) ? 2 : 10 // if the target has an id, use that instead of multiple other selectors
       const selector = this._dataAttribute
-        ? finder(e.target, {seedMinLength: 5, optimizedMinLength: optimizedMinLength, attr: (name, _value) => name === this._dataAttribute})
+        ? finder(e.target, {optimizedMinLength: optimizedMinLength, className: (name) => !name.includes("Mui") === true, attr: (name, _value) => name === this._dataAttribute})
         : finder(e.target, {seedMinLength: 5, optimizedMinLength: optimizedMinLength})
 
       const msg = {

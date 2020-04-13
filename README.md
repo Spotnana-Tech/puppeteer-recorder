@@ -1,3 +1,11 @@
+## For Spotnana
+1. Run: `git clone https://github.com/checkly/puppeteer-recorder.git`
+2. Navigate to chrome://extensions
+3. Make sure 'Developer mode' is checked
+4. Click Load unpacked extension...
+5. Browse to puppeteer-recorder/build and click Select
+
+
 # Puppeteer Recorder
 
 [![Build Status](https://travis-ci.org/checkly/puppeteer-recorder.svg?branch=develop)](https://travis-ci.org/checkly/puppeteer-recorder)
@@ -44,6 +52,17 @@ below) but adds extensibility, configurability and a smoother UI.
 3. Make sure 'Developer mode' is checked
 4. Click Load unpacked extension...
 5. Browse to puppeteer-recorder/build and click Select
+
+
+## Development
+
+1. Run: `git clone https://github.com/checkly/puppeteer-recorder.git`
+2. Run: `cd puppeteer-recorder && npm install node-sass`
+3. Build the project: `npm i && npm run dev`
+4. Navigate to chrome://extensions
+5. Make sure 'Developer mode' is checked
+6. Click Load unpacked extension...
+7. Browse to puppeteer-recorder/build and click Select
 
 ## Cutting a Release
 
